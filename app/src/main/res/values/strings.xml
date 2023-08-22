@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">hello world</string>
+    <string name="button1"> Tes 1 </string>
+    <string name="button2"> Tes 2 </string>
+    <string name="teks1"> Nama : </string>
+    <string name="teks2"> Phone : </string>
+
 </resources>
