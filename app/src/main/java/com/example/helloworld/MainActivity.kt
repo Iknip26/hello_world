@@ -11,9 +11,10 @@ class MainActivity : AppCompatActivity() {
         var binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
         with(binding){
             buttonTest1.setOnClickListener{
-                Toast.makeText(this@MainActivity, "hallo ges", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@MainActivity, "hallo, selamat datang " + binding.inpNama.text + "!" , Toast.LENGTH_SHORT).show()
             }
         }
     }
