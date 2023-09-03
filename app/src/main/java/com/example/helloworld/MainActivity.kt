@@ -10,11 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         var binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-
-        with(binding){
-
-        }
     }
 
 
